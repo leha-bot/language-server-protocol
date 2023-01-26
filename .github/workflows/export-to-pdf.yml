@@ -13,3 +13,7 @@ jobs:
             --standalone
             --output=index.pdf
             /github/workspace/index.html
+      - uses: actions/upload-artifact@master
+        with:
+          name: index.pdf
+          path: .
