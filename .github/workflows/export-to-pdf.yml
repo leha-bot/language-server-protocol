@@ -11,6 +11,7 @@ jobs:
         with:
           args: >-  # allows you to break string into multiple lines
             --standalone
+            -t html
             --output=spec-3.16.pdf
             _specifications/specification-3-16.md
       - uses: actions/upload-artifact@master
